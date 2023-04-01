@@ -1,12 +1,11 @@
 package TestCase;
 
-import BrowserClass.Browser;
+import Setups.Browser;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
@@ -31,7 +30,8 @@ public class Login extends Browser {
         password.sendKeys(element1);
     }
     public void loginBTN(){
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("loginButton")));
+        //wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("loginButton")));
         driver.findElement(By.id("loginButton")).click();
+        //driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
     }
 }
