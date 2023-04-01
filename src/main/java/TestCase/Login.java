@@ -23,15 +23,13 @@ public class Login extends Browser {
     @FindBy(xpath = "//input[@id='Password']")
     WebElement password;
 
-    /*@FindBy(id = "loginButton")
-    WebElement loginbtn;*/
+    @FindBy(id = "loginButton")
+    WebElement loginbtn;
     public void logincreds(String element, String element1){
         username.sendKeys(element);
         password.sendKeys(element1);
     }
     public void loginBTN(){
-        //wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("loginButton")));
-        driver.findElement(By.id("loginButton")).click();
-        //driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
+        loginbtn.click();
     }
 }

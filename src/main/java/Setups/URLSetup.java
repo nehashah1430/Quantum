@@ -15,7 +15,6 @@ public class URLSetup extends Browser {
     }
     public void enterURL(String url){
         driver.get(url);
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
     }
 
 }
