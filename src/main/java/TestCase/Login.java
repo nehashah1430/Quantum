@@ -28,8 +28,6 @@ public class Login extends Browser {
     public void logincreds(String element, String element1){
         username.sendKeys(element);
         password.sendKeys(element1);
-    }
-    public void loginBTN(){
         loginbtn.click();
     }
 }
