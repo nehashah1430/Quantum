@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/Automation/Quantum">
+        <classes>
+            <class name="ExecuteCase.QuantumModules">
+                <methods>
+                    <include name="credsLogin"/>
+                    <include name="contractSearch"/>
+                    <include name="contractForm"/>
+                    <include name="createContract"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

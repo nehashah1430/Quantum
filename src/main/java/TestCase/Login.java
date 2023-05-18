@@ -1,7 +1,6 @@
 package TestCase;
 
-import Setups.Browser;
-import org.openqa.selenium.By;
+import Base.Browser;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -25,7 +24,8 @@ public class Login extends Browser {
 
     @FindBy(id = "loginButton")
     WebElement loginbtn;
-    public void logincreds(String element, String element1){
+    public void logincreds(String url,String element, String element1){
+        driver.get(url);
         username.sendKeys(element);
         password.sendKeys(element1);
         loginbtn.click();
