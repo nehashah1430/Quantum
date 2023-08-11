@@ -1,0 +1,35 @@
+[33mcommit a998f2fc6983dac0d2b9de40f7252836d41e4f3e[m[33m ([m[1;36mHEAD -> [m[1;32mdev[m[33m, [m[1;31morigin/dev[m[33m)[m
+Author: JoshiRashim <rashim.percoidit@gmail.com>
+Date:   Thu May 18 12:31:52 2023 +0545
+
+    Contract Module Complete
+
+[33mcommit fdb9c722b2f558aa6ebcdc26305336266e6be007[m
+Author: JoshiRashim <rashim.percoidit@gmail.com>
+Date:   Sat Apr 1 23:56:29 2023 +0545
+
+    Redundancy Fixed.
+
+[33mcommit e63007fcd869988ce6bd132945cdec3d5447be76[m
+Author: JoshiRashim <rashim.percoidit@gmail.com>
+Date:   Sat Apr 1 23:26:58 2023 +0545
+
+    Timeout issue fixed.
+
+[33mcommit 5688b0e06abaebdfcae59b66dcc0b48884e46287[m
+Author: JoshiRashim <rashim.percoidit@gmail.com>
+Date:   Sat Apr 1 18:51:40 2023 +0545
+
+    URL Setup
+
+[33mcommit 29d7b1aeb858e7f4b610ae70e882b8ad26013512[m
+Author: JoshiRashim <rashim.percoidit@gmail.com>
+Date:   Sat Apr 1 12:25:44 2023 +0545
+
+    Base project created.
+
+[33mcommit a43c6dc8554dde93d3fb90092cede1be6f186ed2[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: nehashah1430 <96975794+nehashah1430@users.noreply.github.com>
+Date:   Sat Apr 1 09:46:34 2023 +0545
+
+    Initial commit
